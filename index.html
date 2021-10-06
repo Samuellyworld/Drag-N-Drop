@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=https://kanbanflow.com/">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="main-title">Workspace Todo</h1>
+    <div class="drag-container">
+        <ul class="drag-list">
+            <!-- Back-Log column -->
+            <li class="drag-column backlog-column">
+                <span class="header">
+                    <h1>Backlog</h1>
+                </span>
+                <!-- backLog Content -->
+                <div id="backlog-content" class="custom-scroll">
+                    <ul class="drag-item-list" id="backlog-list">
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                        <li> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, accusantium veniam ullam impedit hic expedita consequatur unde culpa beatae ab, excepturi quis blanditiis architecto deserunt nostrum! Eum, similique. Eum, Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aut suscipit expedita dolore dolor vero ea architecto optio quam. Atque, deleniti voluptatum? Fuga amet necessitatibus aperiam atque sequi similique! Voluptates?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus vel vitae minus inventore, incidunt quae reiciendis eum quisquam enim maiores, tenetur tempora laboriosam soluta unde optio repudiandae ab. Mollitia, odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit tempora architecto error quasi culpa ipsam, esse voluptates beatae neque nostrum velit ullam accusantium, reiciendis recusandae quisquam doloremque eius blanditiis Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus quis quam molestiae distinctio, numquam dolorem impedit asperiores ea mollitia iste labore odio possimus optio repellat dicta, omnis odit neque? Unde? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio magnam vero unde amet minus sequi veniam et id eveniet tempore. Neque accusamus nobis aliquam, autem consequatur atque odit recusandae similique.</li>
+                    </ul>
+                </div>
+                <!-- Add Button Group -->
+                <div class="add-btn-group">
+                    <div class="add-btn">
+                        <span class="plus-sign"> +</span>
+                        <span>Add Item </span>
+                    </div>
+                    <div class="add-btn solid">
+                        <span>Save Item</span>
+                    </div>
+                    <div class="add-container">
+                     <div class="add-item"></div>
+                   </div>
+                </div>
+
+            </li>
+            <!-- Progress column -->
+            <li class="drag-column progress-column">
+                <span class="header">
+                    <h1>Progress</h1>
+                </span>
+                <!-- progress Content -->
+                <div id="progress-content" class="custom-scroll">
+                    <ul class="drag-item-list" id="progress-list">
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                    </ul>
+                </div>
+                <!-- Add Button Group -->
+                <div class="add-btn-group">
+                    <div class="add-btn">
+                        <span class="plus-sign"> +</span>
+                        <span>Add Item </span>
+                    </div>
+                    <div class="add-btn solid">
+                        <span>Save Item</span>
+                    </div>
+                  <div class="add-container">
+                    <div class="add-item"></div>
+                    </div>
+                </div>
+                
+            </li>
+            <!-- Complete column -->
+            <li class="drag-column complete-column">
+                <span class="header">
+                    <h1>Complete</h1>
+                </span>
+                <!-- complete Content -->
+                <div id="complete-content" class="custom-scroll">
+                    <ul class="drag-item-list" id="complete-list">
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                    </ul>
+                </div>
+                <!-- Add Button Group -->
+                <div class="add-btn-group">
+                    <div class="add-btn">
+                        <span class="plus-sign"> +</span>
+                        <span>Add Item </span>
+                    </div>
+                    <div class="add-btn solid">
+                        <span>Save Item</span>
+                    </div>
+                    <div class="add-container">
+                      <div class="add-item"></div>
+                    </div>
+                </div>
+                
+            </li>
+            <!-- onHold column -->
+            <li class="drag-column on-hold-column">
+                <span class="header">
+                    <h1>on Hold</h1>
+                </span>
+                <!-- onhold Content -->
+                <div id="on-hold-content" class="custom-scroll">
+                    <ul class="drag-item-list" id="on-hold-list">
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                        <li class="drag-item">Testing</li>
+                    </ul>
+                </div>
+                <!-- Add Button Group -->
+                <div class="add-btn-group">
+                    <div class="add-btn">
+                        <span class="plus-sign"> +</span>
+                        <span>Add Item </span>
+                    </div>
+                    <div class="add-btn solid">
+                        <span>Save Item</span>
+                    </div>
+                    <div class="add-container">
+                     <div class="add-item"></div>
+                    </div>
+                </div>
+                
+            </li>
+        </ul>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
